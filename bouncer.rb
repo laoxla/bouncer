@@ -49,7 +49,7 @@ end
 keep_going = true
 while keep_going
   country_check
-  puts "Go again?"
+  puts "Change Country?"
   if gets.chomp.downcase != "yes"
     keep_going = false
   end
